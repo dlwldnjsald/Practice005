@@ -1,8 +1,8 @@
- package com.javaex.ex07; ////
+ package com.javaex.ex07; ////d
 
 
 
-import java.util.Scanner;
+import java.util.Scanner;//
 
 
 
