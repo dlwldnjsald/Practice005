@@ -1,21 +1,19 @@
 package com.javaex.ex07; 
-import java.util.Scanner;//
+
+import java.util.Scanner;// java.util.Scanner라는 클래스 이용위해 호출 
+
 public class FriendApp {
 
 	public static void main(String[] args) {
 
-		Friend[] friendArray = new Friend[3];    //fried배열 3개 만들어주기 (length==3인)배열
+		Friend[] friendArray = new Friend[3];    //friend배열 3개 만들어주기 (length==3인)배열
 
         Scanner sc = new Scanner(System.in);	//스캐너 열기 개방
 
-
-
         System.out.println("친구를 3명 등록해 주세요");	//프롬프트를 출력했음
 
-
-
         
-
+        
         //for문 시작 루프돌리기 //
 
         //친구정보 3명 입력 로직 --> 반복문 사용

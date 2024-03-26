@@ -5,9 +5,10 @@
 //이들을 모두 화면에 출력하세요.
 
 package com.javaex.ex07;  
+
 public class Friend {
 
-	private String name;
+	private String name;     //이름, 핸드폰, 학교 프라이빗 문자열로 선언
 	private String hp;
 	private String school;
 
