@@ -1,23 +1,12 @@
 
 package com.javaex.ex07;  
-
-
-
 public class Friend {
 
+	private String name;
+	private String hp;
+	private String school;
 
-
-    private String name;
-
-    private String hp;
-
-    private String school;
-
-
-
-    
-
-    // getter/setter 작성
+	// getter/setter 작성
 
     public String getName() {
 
@@ -25,15 +14,11 @@ public class Friend {
 
     }
 
-    
-
     public void setName(String name) {		//외부로부터 name변수에 받아들인 데이터를 하위 블록에 집어넣을것. 
 
     	this.name = name;      //name변수에 할당된 외부데이터를 다시 this.name에 할당해준다
 
     }
-
-    
 
    //------------------------------------
 
@@ -42,8 +27,6 @@ public class Friend {
     	return hp;
 
     }
-
-   
 
     public void setHp(String hp) {
 
@@ -59,8 +42,6 @@ public class Friend {
 
     }
 
-    
-
     public void setSchool(String school) {
 
     	this.school = school;
@@ -68,9 +49,7 @@ public class Friend {
     }
 
     //----------------------------------------
-
     
-
     public void showInfo(){
 
         System.out.println("이름:" + name + "  핸드폰:" + hp + " 학교:" + school);

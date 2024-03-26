@@ -1,20 +1,10 @@
- package com.javaex.ex07; 
-
-
-
+package com.javaex.ex07; 
 import java.util.Scanner;//
-
-
-
 public class FriendApp {
 
+	public static void main(String[] args) {
 
-
-    public static void main(String[] args) {
-
-
-
-        Friend[] friendArray = new Friend[3];    //fried배열 3개 만들어주기 (length==3인)배열
+		Friend[] friendArray = new Friend[3];    //fried배열 3개 만들어주기 (length==3인)배열
 
         Scanner sc = new Scanner(System.in);	//스캐너 열기 개방
 
@@ -72,16 +62,10 @@ public class FriendApp {
 
         		
 
-        }  
-
-        //for문 끝
+        }  //for문 끝
 
         
-
-        
-
         // 친구정보 출력
-
         for (int i = 0; i < friendArray.length; i++) {
 
             //친구정보 출력 메소드 호출
@@ -90,12 +74,8 @@ public class FriendApp {
 
         }
 
-
-
         sc.close();
 
     }
-
-
 
 }
