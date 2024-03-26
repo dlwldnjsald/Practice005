@@ -36,7 +36,7 @@ public class Member {
 	}
 //	------------------------------
 	
-	public String getName() {
+	public String getName() {  //
 		return name;
 	}
 	
