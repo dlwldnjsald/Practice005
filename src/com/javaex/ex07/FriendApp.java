@@ -16,52 +16,40 @@ public class FriendApp {
         
         //for문 시작 루프돌리기 //
 
-        //친구정보 3명 입력 로직 --> 반복문 사용
-
+        //친구정보 3명 입력 로직 --> for 반복문 사용
         for (int i = 0; i < 3; i++) {  //for(초기화,조건연산,증감)
-
         	
-
         	//이제 데이터 입력해주기
-
          	String name,hp,school;			//변수 선언하기
 
          	
-
          	System.out.print("이름: ");
-
          	name = sc.next();	//스캐너로부터 문자열을 전달받는다
 
         	System.out.print("핸드폰: ");
-
          	hp = sc.next();		//스캐너로부터 문자열을 전달받는다
 
         	System.out.print("학교: ");
-
          	school = sc.next();	//스캐너로부터 문자열을 전달받는다
 
         	
-
+         	//--------------------------------------------------------------------
         	Friend newFriend = new Friend();   //주의) 메모리상에 friend를 만들어주고
-
         	newFriend.setName(name);
-
         	newFriend.setHp(hp);
-
         	newFriend.setSchool(school);   //만들어 두고 이제 연결시키기
-
         	
-
-        	//배열에 참조주소 할당해주기//
+        	
+        	//배열에 참조주소 할당해주기//----------------------------------------
 
         	friendArray[i] = newFriend;
-
         	System.out.println("------------------------------");
 
         		
 
-        }  //for문 끝
+        }  //for문 끝========================================================
 
+        
         
         // 친구정보 출력
         for (int i = 0; i < friendArray.length; i++) {
@@ -69,11 +57,10 @@ public class FriendApp {
             //친구정보 출력 메소드 호출
 
         	friendArray[i].showInfo();
-
         }
 
+        
         sc.close();
-
     }
 
 }
