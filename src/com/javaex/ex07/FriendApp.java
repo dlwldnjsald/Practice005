@@ -1,4 +1,4 @@
- package com.javaex.ex07; ////d
+ package com.javaex.ex07; 
 
 
 
