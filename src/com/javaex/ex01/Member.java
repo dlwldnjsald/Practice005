@@ -13,7 +13,7 @@ package com.javaex.ex01;
 
 //다음과 같이 출력 미션
 //다음과 같이 출력되도록 Member 클래스에 
-//showInfo() 메소드를 추가하고 
+//showInfo() 메드를 추가하고 
 //MemberApp 클래스를 작성하세요.
 
 //회원정보: 정우성(jws), 50000점
