@@ -18,7 +18,7 @@ package com.javaex.ex01;
 
 //회원정보: 정우성(jws), 50000점
 //회원정보: 유재석(yjs), 30000점
-//회원정보: 이효리(lhr), 40000점
+//회원정보: 이효리(lhr), 40000////
 
 public class Member {
 	
